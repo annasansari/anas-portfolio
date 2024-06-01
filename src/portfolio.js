@@ -218,7 +218,29 @@ const bigProjects = {
           url: "https://leafy-praline-3e9498.netlify.app/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/real-estate.jpg"),
+      projectName: "Real Estate",
+      projectDesc: "a real-estate platform built with HTML, CSS, JS, and Firebase. Buy, sell, or rent properties effortlessly with our extensive listings and user-friendly interface. Connect with top realtors and find detailed property insights.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://real-estate-uni.vercel.app/"
+        }
+      ]
+    },
+    // {
+    //   image: require("./assets/images/blogApp.png"),
+    //   projectName: "Blog App",
+    //   projectDesc: "BlogApp is a simple blogging website made using HTML, CSS, and JavaScript. It lets you write and publish your own blog posts easily. With Firebase, your posts update instantly, making it quick and fun to share your thoughts with others.",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://leafy-praline-3e9498.netlify.app/"
+    //     }
+    //   ]
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
